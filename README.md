@@ -37,6 +37,12 @@ One of the simplest and most widely known ciphers is a Caesar cipher, also known
 
 A common modern use is the ROT13 cipher, where the values of the letters are shifted by 13 places. Thus A ↔ N, B ↔ O and so on.
 
+## 4. Telephone Number Validator
+****[Implimentation](https://github.com/hlalljie/Javascript-Algorithms-and-Data-Structures-Projects/blob/main/telephone_number_validator.js) - [Original Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator)**
+### Specifications
+Return true if the passed string looks like a valid US phone number.
+
+The user may fill out the form field any way they choose as long as it has the format of a valid US number. The following are examples of valid formats for US numbers (refer to the tests below for other variants):
 Write a function which takes a ROT13 encoded string as input and returns a decoded string.
 
 All letters will be uppercase. Do not transform any non-alphabetic character (i.e. spaces, punctuation), but do pass them on.
