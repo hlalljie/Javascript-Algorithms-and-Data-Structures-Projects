@@ -1,4 +1,4 @@
-# Javascript-Algorithmsand-Data-Structures-Projects
+# Javascript-Algorithms-and-Data-Structures-Projects
 Final Projects from [FreeCodeCamp.com's](https://www.freecodecamp.org/) [Javascript Algorithms and Data Structures Course](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
 
 ## 1. Palindrome Checker
