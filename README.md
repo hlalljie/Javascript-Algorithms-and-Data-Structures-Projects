@@ -38,7 +38,7 @@ One of the simplest and most widely known ciphers is a Caesar cipher, also known
 A common modern use is the ROT13 cipher, where the values of the letters are shifted by 13 places. Thus A ↔ N, B ↔ O and so on.
 
 ## 4. Telephone Number Validator
-****[Implimentation](https://github.com/hlalljie/Javascript-Algorithms-and-Data-Structures-Projects/blob/main/telephone_number_validator.js) - [Original Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator)**
+**[Implimentation](https://github.com/hlalljie/Javascript-Algorithms-and-Data-Structures-Projects/blob/main/telephone_number_validator.js) - [Original Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator)**
 ### Specifications
 Return true if the passed string looks like a valid US phone number.
 
@@ -46,5 +46,21 @@ The user may fill out the form field any way they choose as long as it has the f
 Write a function which takes a ROT13 encoded string as input and returns a decoded string.
 
 All letters will be uppercase. Do not transform any non-alphabetic character (i.e. spaces, punctuation), but do pass them on.
+
+## 5. Cash Register
+**[Implimentation](https://github.com/hlalljie/Javascript-Algorithms-and-Data-Structures-Projects/blob/main/cash_register.js) - [Original Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register)**
+
+### Specifications
+Design a cash register drawer function checkCashRegister() that accepts purchase price as the first argument (price), payment as the second argument (cash), and cash-in-drawer (cid) as the third argument.
+
+cid is a 2D array listing available currency.
+
+The checkCashRegister() function should always return an object with a status key and a change key.
+
+Return {status: "INSUFFICIENT_FUNDS", change: []} if cash-in-drawer is less than the change due, or if you cannot return the exact change.
+
+Return {status: "CLOSED", change: [...]} with cash-in-drawer as the value for the key change if it is equal to the change due.
+
+Otherwise, return {status: "OPEN", change: [...]}, with the change due in coins and bills, sorted in highest to lowest order, as the value of the change key.
 
 
