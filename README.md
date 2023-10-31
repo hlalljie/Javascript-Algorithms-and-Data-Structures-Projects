@@ -14,3 +14,15 @@ We'll pass strings with varying formats, such as racecar, RaceCar, and race CAR 
 
 We'll also pass strings with special symbols, such as 2A3*3a2, 2A3 3a2, and 2_A3*3#A2.
 
+## 2. Roman Numeral Coverter
+**[Implimentation](https://github.com/hlalljie/Javascript-Algorithms-and-Data-Structures-Projects/blob/main/roman_numeral_converter.js)[Original Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter)**
+Roman Numeral Converter
+Convert the given number into a roman numeral.
+
+Roman numerals	Arabic numerals
+M	1000    |   CM   900    |   D	500 |   CD	400
+C	 100    |   XC	  90    |   L	 50 |   XL	 40
+X	  10    |   IX	   9    |   V	  5 |   IV	  4 
+I	   1
+All roman numerals answers should be provided in upper-case.
+
