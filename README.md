@@ -15,8 +15,8 @@ We'll pass strings with varying formats, such as racecar, RaceCar, and race CAR 
 We'll also pass strings with special symbols, such as 2A3*3a2, 2A3 3a2, and 2_A3*3#A2.
 
 ## 2. Roman Numeral Coverter
-**[Implimentation](https://github.com/hlalljie/Javascript-Algorithms-and-Data-Structures-Projects/blob/main/roman_numeral_converter.js)[Original Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter)**
-Roman Numeral Converter
+**[Implimentation](https://github.com/hlalljie/Javascript-Algorithms-and-Data-Structures-Projects/blob/main/roman_numeral_converter.js) - [Original Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter)**
+### Specifications
 Convert the given number into a roman numeral.
 
 Roman numerals	Arabic numerals
@@ -29,4 +29,16 @@ Roman numerals	Arabic numerals
 |I: 	   1    |               |         |          |
 
 All roman numerals answers should be provided in upper-case.
+
+## 3. Caesar's Cipher
+**[Implimentation](https://github.com/hlalljie/Javascript-Algorithms-and-Data-Structures-Projects/blob/main/caesars_cipher.js) - [Original Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher)**
+### Specifications
+One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher. In a shift cipher the meanings of the letters are shifted by some set amount.
+
+A common modern use is the ROT13 cipher, where the values of the letters are shifted by 13 places. Thus A ↔ N, B ↔ O and so on.
+
+Write a function which takes a ROT13 encoded string as input and returns a decoded string.
+
+All letters will be uppercase. Do not transform any non-alphabetic character (i.e. spaces, punctuation), but do pass them on.
+
 
